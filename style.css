@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+    background: #191919;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    padding: 1rem;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 800;
+    text-shadow: 4px 5px #424242;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.block{
+    background: #212121;
+    display: flex;
+    flex-flow:column ;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 4rem;
+    box-shadow: 8px 8px 15px 0px rgb(0, 0, 0,20%),
+    inset 8px 8px 20px -3px rgba(255, 255, 255, 7%);
+    position: relative;
+    border-radius: 5px;
+
+}
+.block h2{
+
+    font-size: 60px;
+    font-weight: 700;
+
+}
+.block p{
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.4;
+}
+.block .middle{
+    background: linear-gradient(165deg, rgba(247,231,212,1) 41%, rgba(244,243,243,0) 100%);
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    opacity: 0.04;
+    top:50%;
+}
+
